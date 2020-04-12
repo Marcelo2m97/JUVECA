@@ -6,6 +6,7 @@
 }
 
 .navbar {
+    margin: 0;
     padding: 0;
     z-index: 99999;
     color: #ffb133;
@@ -37,7 +38,17 @@
     text-decoration: none;
 }*/
 
-.navbar ul a li {
+.navbar ul li {
     padding: 0 1.25vw 0 1.25vw;
     display: inline-block;
+}
+
+.navbar ul li,
+.navbar ul li:after,
+.navbar ul li:before {
+    transition: all .6s;
+}
+
+.navbar ul li:hover {
+    color: #af0000;
 }
