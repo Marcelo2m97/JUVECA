@@ -18,20 +18,22 @@
                         <img src = "../assets/images/Logo Juveca - Wide.png">
                     </a>
                     <ul>
-                        <li>Inicio</li>
-                        <li>Quiénes somos</li>
-                        <li>Devocional</li>
-                        <li>Contenido JUVECA</li>
-                        <li>Contáctanos</li>
+                        <li id = "home" onclick = "loadNewContent(1)">Inicio</li>
+                        <li id = "aboutUs" onclick = "loadNewContent(2)">Quiénes somos</li>
+                        <li id = "prayers" onclick = "loadNewContent(3)">Devocional</li>
+                        <li id = "juvecaContent" onclick = "loadNewContent(4)">Contenido JUVECA</li>
+                        <li id = "contactUs" onclick = "loadNewContent(5)">Contáctanos</li>
                     </ul>
                 </div>
                 <div id = "content">
-
                 </div>
             </div>
         </div>
         <!--Scripts-->
+        <!--jQuery CDN-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <!--Bootstrap JavaScript CDN-->
         <script type = "text/javascript" src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script type = "text/javascript" src = "../assets/js/preloadNavBar.js"></script>
     </body>
 </html>
