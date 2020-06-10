@@ -24,19 +24,19 @@ function loadNewContent(clicker){
 
     switch(clicker){
         case 1:
-            xhr.open('GET', 'home.html');
+            xhr.open('GET', 'dist/home.html');
             break;
         case 2:
-            xhr.open('GET', 'aboutUs.html');
+            xhr.open('GET', 'dist/aboutUs.html');
             break;
         case 3:
-            xhr.open('GET', 'prayers.html');
+            xhr.open('GET', 'dist/prayers.html');
             break;
         case 4:
-            xhr.open('GET', 'juvecaContent.html');
+            xhr.open('GET', 'dist/juvecaContent.html');
             break;
         case 5:
-            xhr.open('GET', 'contactUs.html');
+            xhr.open('GET', 'dist/contactUs.html');
             break;
     }
 
